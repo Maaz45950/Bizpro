@@ -1,0 +1,482 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/AirbnbCereal_W_Bd.otf);
+}
+
+body {
+    font-family: myfont;
+    line-height: 24px;
+}
+
+h3,
+h1,
+h5 {
+    color: #060640;
+}
+
+footer,
+.btn-2,
+.banner .button,
+.subscriber button {
+    background-color: #060640;
+}
+
+p,
+footer p,
+footer li,
+.popular-packages .d-flex p {
+    color: var(--Paragraph, #9090A7);
+}
+
+.btn-2,
+.banner .button,
+footer h3,
+footer .social-icon a,
+.subscriber button {
+    color: #fff;
+}
+
+.bg-light,
+.Control,
+.banner .fa-play,
+.work .packages {
+    background-color: #fff;
+}
+
+h1,
+h5 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+header,
+.popular-packages,
+.subscriber .row {
+    background-image: url(../images/Header.jpg);
+}
+
+footer p,
+.banner,
+.work,
+.about-us,
+.global,
+.popular-packages,
+.newsletter {
+    padding-top: 40px;
+}
+
+/* -------navbar-start----- */
+.nav-item {
+    padding-right: 10px;
+    color: #18191F;
+}
+
+.bg-light {
+    padding: 14px;
+    border-radius: 7px
+}
+
+.btn {
+    margin-right: 30px;
+    background-color: #FFF;
+}
+
+.btn-2,
+.banner .button {
+    border: 1px solid #ffffff;
+    font-size: 11px;
+    padding: 10px 13px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.modal-header {
+    border-bottom: 0;
+    padding: 0;
+}
+
+.modal-header
+
+/* ----------navbar-end------ */
+/* ---------form------------ */
+.do h2 {
+    margin-bottom: 0%;
+    font-size: 32px;
+    color: #8a8484;
+}
+
+.td h3 {
+    font-size: 29px;
+    color: #8a8484;
+}
+
+.pt {
+    margin-top: 14px;
+}
+
+.Control:hover {
+    border: 1px solid #140ede;
+}
+
+.Control {
+    box-shadow: 0 0 20px rgba(30, 34, 40, .04);
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.select-cource {
+    box-shadow: 0 0 20px rgba(30, 34, 40, .04);
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-black {
+    box-shadow: 0 0 16px rgba(0, 0, 0, .2);
+    padding: 32px;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+
+/** banner-start **/
+.modal-body {
+    padding: 40px;
+    background-color: #18191F;
+}
+
+.banner .fa-play {
+    color: #4df9ff;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.banner {
+    background: url(image/header.jpg);
+}
+
+.banner .button {
+    padding: 15px 20px;
+}
+
+.banner .position-absolu,
+.popular-packages .position-absolu,
+.work .position-absolu,
+.about-us .position-absolu, .newsletter .position-absolu  {
+    position: absolute;
+    right: 5px;
+    top:  -4px;
+}
+
+.banner span,
+.popular-packages span,
+.work span,
+.about-us span,.newsletter span {
+    position: relative;
+}
+
+/** banner-end **/
+/* ---------form------------ */
+.do h2 {
+    margin-bottom: 0%;
+    font-size: 32px;
+    color: #8a8484;
+}
+
+.td h3 {
+    font-size: 29px;
+    color: #8a8484;
+}
+
+.pt {
+    margin-top: 14px;
+}
+
+.Control:hover {
+    border: 1px solid #140ede;
+}
+
+.Control {
+    box-shadow: 0 0 20px rgba(30, 34, 40, .04);
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.select-cource {
+    box-shadow: 0 0 20px rgba(30, 34, 40, .04);
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-black {
+    box-shadow: 0 0 16px rgba(0, 0, 0, .2);
+    padding: 32px;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+.modal-header .btn-close {
+    padding: 22px;
+    border-radius: 50%;
+}
+
+/* --------how-work----- */
+.work .packages {
+    padding: 30px 20px 20px 30px;
+    border-radius: 14px;
+    box-shadow: 0px 30px 50px 0px #ceced6;
+    height: 100%;
+
+}
+
+.boxx img {
+    padding: 13px;
+    display: inline-block;
+    background-color: #edffdf;
+    border-radius: 10px
+}
+
+.boxx,
+.popular-packages {
+    padding-bottom: 40px;
+    margin-bottom: 40;
+
+}
+
+
+/* ---------popular-packages-start--------- */
+.popular-packages .client {
+    position: relative;
+    background: #f3f3f3;
+    border-radius: 24px;
+    padding: 18px;
+}
+
+.popular-packages h4 {
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+.popular-packages .d-flex p {
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+
+.popular-packages .d-flex p span {
+    text-align: end;
+    color: #4df9ff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 30px;
+    width: 32px;
+    background-size: 25px;
+    background-color: #00E5CC;
+    border-radius: 6px;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: -40;
+    bottom: auto;
+    opacity: 0.9;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.carousel-control-prev {
+    left: auto;
+    right: 63px;
+}
+
+.carousel-control-next {
+    right: 18px;
+}
+
+.popular-packages .client .d-flex img{
+    width: auto;
+}
+/* -------------- Subscrice newsletter css-------------- */
+.newsletter .container {
+    background-image: url(../images/Header.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 62px;
+  }
+  .newsletter {
+    padding: 50px;
+    position: relative;
+  }
+  .newsletter-img-position-2 {
+    position: absolute;
+    right: 70px;
+    top: 11px;
+  }
+  .newsletter p {
+    margin-bottom: 40px;
+  }
+  .newsletter-img-position {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 519px;
+    margin: 0 auto;
+  }
+  .newsletter .btn-position {
+    position: relative;
+  }
+  .newsletter .btnnnn {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+  }
+  .btnnnn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #060640;
+    border-radius: 5px;
+    padding: 14px 40px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    background: #060640;
+  }
+  .newsletter input {
+    padding: 25px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+  }
+  .newsletter h2 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 122.222% */
+  }
+  /* ---------------------------- End Subscrice newsletter css */
+/* -----fotter------- */
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer img {
+    width: 190px;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+footer li {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: start;
+}
+
+footer .social-icon {
+    padding-top: 18px;
+}
+
+footer .social-icon a {
+    border: 1px solid #FFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 9px;
+    margin-right: 8px;
+}
+
+footer .social-icon i {
+    padding-right: 25px;
+}
+
+/* ---------footer-end------ */
+
+@media only screen and (max-width: 991px) {
+
+    h1,
+    h5 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .banner .position-absolu,
+    .popular-packages .position-absolu,
+    .work .position-absolu,
+    .about-us .position-absolu {
+        width: 30;
+        position: absolute;
+        right: 15px;
+        top: -4px;
+    }
+
+    footer .list-unstyled li {
+        justify-content: center;
+        display: flex;
+    }
+    .newsletter-img-position-2,.newsletter .btnnnn {
+        position: inherit;
+    }
+}
